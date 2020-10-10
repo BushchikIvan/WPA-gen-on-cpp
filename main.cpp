@@ -15,14 +15,14 @@ int main() {
                         for (int f = 0; f < 159; f++) {
                             for (int g = 0; g < 159; g++) {
                                 for (int h = 0; h < 159; h++) {
-                                    for (int i = 0; i < 159; i++) {
-                                        for (int j = 0; j < 159; j++) {
-                                            for (int k = 0; k < 159; k++) {
-                                                for (int l = 0; l < 159; l++) {
-                                                    for (int m = 0; m < 159; m++) {
-                                                        for (int n = 0; n < 159; n++) {
-                                                            for (int o = 0; o < 159; o++) {
-                                                                for (int p = 0; p < 159; p++) {
+                                    for (int i = 1; i < 159; i++) {
+                                        for (int j = 1; j < 159; j++) {
+                                            for (int k = 1; k < 159; k++) {
+                                                for (int l = 1; l < 159; l++) {
+                                                    for (int m = 1; m < 159; m++) {
+                                                        for (int n = 1; n < 159; n++) {
+                                                            for (int o = 1; o < 159; o++) {
+                                                                for (int p = 1; p < 159; p++) {
                                                                     temp = mass[a] + mass[b] + mass[c] + mass[d] + mass[e] + mass[f] + mass[g] + mass[h] + mass[i] + mass[j] + mass[k] + mass[l] + mass[m] + mass[n] + mass[o] + mass[p];
                                                                     outf << temp << endl;
                                                                 }

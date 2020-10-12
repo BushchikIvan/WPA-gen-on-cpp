@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <clocale>
 //#define NULL __null
 using namespace std;
 
@@ -27,7 +26,6 @@ void gen (string pass, int ssize, int len)
 
 int main()
 {
-    setlocale(0,"");
     string s = "";
     gen(s, 0, 8);
 
